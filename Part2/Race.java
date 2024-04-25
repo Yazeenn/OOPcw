@@ -73,7 +73,7 @@ public class Race
                 //already a horse on lane
                 System.out.println("Cannot add " + theHorse.getName() +" to lane " + laneNumber + " because there is already a horse on that lane");
             } else {
-            lanes[laneNumber - 1] = (theHorse);
+                lanes[laneNumber - 1] = (theHorse);
             }
         } else {
             System.out.println("Cannot add horse to lane " + laneNumber + " because there is no such lane");

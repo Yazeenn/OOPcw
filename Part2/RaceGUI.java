@@ -20,7 +20,7 @@ public class RaceGUI extends JFrame {
     public RaceGUI() {
         // Set up the main frame
         setTitle("Racing Application");
-        setSize(800, 600);
+        setSize(1300, 700);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new GridLayout(2, 2)); // Divide the frame into four quadrants
 
